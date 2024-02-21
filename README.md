@@ -8,7 +8,8 @@ I uses [this dataset](https://www.kaggle.com/datasets/fedesoriano/heart-failure-
 I used [Google Colab](https://colab.research.google.com/drive/14E5uij9zbBW1TdRGGLkAAl-yFF0EeejJ?usp=sharing) for training the model, using H2O's deep learning tools.
 
 You can watch a small go through of the application in below video
-![video](https://youtu.be/JtG0GZEk6_k?si=ZDrtLAidh0z_ROD2)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/JtG0GZEk6_k?si=eW_DlwWWZb9EjIK1" title="Heart Disease Predictor Powered by H2O Wave" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 This project was bootstrapped with `wave init` command.
 
