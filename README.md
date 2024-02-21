@@ -9,9 +9,7 @@ I used [Google Colab](https://colab.research.google.com/drive/14E5uij9zbBW1TdRGG
 
 You can watch a small go through of the application in below video
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/JtG0GZEk6_k?si=eW_DlwWWZb9EjIK1" title="Heart Disease Predictor Powered by H2O Wave" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-This project was bootstrapped with `wave init` command.
+[![IMAGE ALT TEXT HERE](https://images.squarespace-cdn.com/content/v1/5daddb33ee92bf44231c2fef/60533e7f-5ab0-4913-811c-9a4c56e93a5c/AI-in-healthcare2.jpg)](https://youtu.be/JtG0GZEk6_k?si=EvmPj7XGs0Kh0AaE)
 
 ## Running the app
 
