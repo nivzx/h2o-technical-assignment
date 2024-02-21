@@ -1,20 +1,18 @@
-# H2O.ai Technical Assesment
+# 🌊 H2O.ai Technical Assessment 🧠
 
-## Introduction
+## Introduction 🚀
 
-This is an app built using H2O wave, with H2O's DeepLearning models. It is an app for predicting if patients are vulerable for future heart diseases based on their current medical data
+Welcome to this exciting app powered by H2O Wave, utilizing H2O's Deep Learning models! This app aims to predict the vulnerability of patients to future heart diseases based on their current medical data.
 
-I uses [this dataset](https://www.kaggle.com/datasets/fedesoriano/heart-failure-prediction) with more than 1000 datapoints for training and validation of the model.
-I used [Google Colab](https://colab.research.google.com/drive/14E5uij9zbBW1TdRGGLkAAl-yFF0EeejJ?usp=sharing) for training the model, using H2O's deep learning tools.
+It uses [this dataset](https://www.kaggle.com/datasets/fedesoriano/heart-failure-prediction) containing over 1000 data points for training and validation of the predictive model. The model was trained using H2O's deep learning tools in [Google Colab](https://colab.research.google.com/drive/14E5uij9zbBW1TdRGGLkAAl-yFF0EeejJ?usp=sharing).
 
-You can watch a small go through of the application in [this video](https://youtu.be/JtG0GZEk6_k)
+📺 Check out a quick walkthrough of the application in [this video](https://youtu.be/JtG0GZEk6_k)!
 
+## Running the App 🏃‍♂️
 
-## Running the app
+Ensure you have activated a Python virtual environment with `h2o-wave` installed.
 
-Make sure you have activated a Python virtual environment with `h2o-wave` installed.
-
-If you haven't created a python env yet, simply run the following command (assuming Python 3.7 is installed properly).
+If you haven't set up a Python environment yet, simply run the following command (assuming Python 3.7 is installed properly):
 
 For MacOS / Linux:
 
@@ -32,18 +30,33 @@ venv\Scripts\activate
 pip install h2o-wave
 ```
 
-Once the virtual environment is setup and active, run:
+Once the virtual environment is set up and active, run:
 
 ```sh
 wave run app.py
 ```
 
-Which will start a Wave app at <http://localhost:10101>.
+This will start the Wave app at <http://localhost:10101>.
 
-## Interactive examples
+## Explore the Predictions 📊
 
-If you prefer learning by doing, you can run `wave fetch` command that will download all the existing small Python examples that show Wave in action. The best part is that all these examples are interactive, meaning you can edit their code directly within the browser and observe the changes.
+Once you've started the app, Use it to predit the data based on your inputs. You can input different sets of medical data to see how the model predicts the vulnerability of patients to future heart diseases. Experiment with various combinations of input variables to gain insights into the factors influencing the predictions.
 
-## Learn More
+## Learn More 📚
 
-To learn more about H2O Wave, check out the [docs](https://wave.h2o.ai/).
+Use these resources to dive deeper into neural networks and deep learning!
+
+### Websites and Tutorials 🌐
+- **[Deep Learning.ai](https://www.deeplearning.ai/)**: Offers courses, tutorials, and resources for learning deep learning concepts.
+- **[TensorFlow Tutorials](https://www.tensorflow.org/tutorials)**: Official TensorFlow tutorials covering various deep learning topics.
+- **[PyTorch Tutorials](https://pytorch.org/tutorials/)**: Official PyTorch tutorials with hands-on examples for deep learning tasks.
+
+### Communities and Forums 🌟
+- **[Reddit - r/MachineLearning](https://www.reddit.com/r/MachineLearning/)**: Active community for discussions on machine learning and deep learning topics.
+- **[Stack Overflow - Deep Learning](https://stackoverflow.com/questions/tagged/deep-learning)**: Q&A platform for asking specific questions related to deep learning implementation.
+
+---
+
+To dive deeper into H2O Wave, explore the [docs](https://wave.h2o.ai/) for comprehensive information and resources.
+
+Let the wave of innovation carry you forward! 🌊✨

@@ -1,6 +1,10 @@
+import h2o
+
 from h2o_wave import Q, ui
 
 async def init(q: Q, home) -> None:
+    h2o.init()
+
     q.page['meta'] = ui.meta_card(box='', layouts=[ui.layout(breakpoint='xs', min_height='100vh', zones=[
         ui.zone('header'),
         ui.zone('content', zones=[
