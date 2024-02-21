@@ -7,9 +7,8 @@ This is an app built using H2O wave, with H2O's DeepLearning models. It is an ap
 I uses [this dataset](https://www.kaggle.com/datasets/fedesoriano/heart-failure-prediction) with more than 1000 datapoints for training and validation of the model.
 I used [Google Colab](https://colab.research.google.com/drive/14E5uij9zbBW1TdRGGLkAAl-yFF0EeejJ?usp=sharing) for training the model, using H2O's deep learning tools.
 
-You can watch a small go through of the application in below video
+You can watch a small go through of the application in [this video](https://youtu.be/JtG0GZEk6_k)
 
-[![IMAGE ALT TEXT HERE](https://images.squarespace-cdn.com/content/v1/5daddb33ee92bf44231c2fef/60533e7f-5ab0-4913-811c-9a4c56e93a5c/AI-in-healthcare2.jpg)](https://youtu.be/JtG0GZEk6_k?si=EvmPj7XGs0Kh0AaE)
 
 ## Running the app
 
