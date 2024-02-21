@@ -1,4 +1,14 @@
-# Getting Started with H2O Wave
+# H2O.ai Technical Assesment
+
+## Introduction
+
+This is an app built using H2O wave, with H2O's DeepLearning models. It is an app for predicting if patients are vulerable for future heart diseases based on their current medical data
+
+I uses [this dataset](https://www.kaggle.com/datasets/fedesoriano/heart-failure-prediction) with more than 1000 datapoints for training and validation of the model.
+I used [Google Colab](https://colab.research.google.com/drive/14E5uij9zbBW1TdRGGLkAAl-yFF0EeejJ?usp=sharing) for training the model, using H2O's deep learning tools.
+
+You can watch a small go through of the application in below video
+![video](https://youtu.be/JtG0GZEk6_k?si=ZDrtLAidh0z_ROD2)
 
 This project was bootstrapped with `wave init` command.
 
