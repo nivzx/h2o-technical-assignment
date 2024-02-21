@@ -48,7 +48,6 @@ def display_model(q: Q):
         name='info_card',
         title='How is it done?',
         caption=model_info,
-        label='See Results',
         image='https://img.freepik.com/premium-photo/cartoon-character-doctor-with-stethoscope-his-hand_1057-22790.jpg'
         ))
     
