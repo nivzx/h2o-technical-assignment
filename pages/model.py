@@ -1,46 +1,54 @@
+import pandas as pd
 import h2o
 
 from h2o_wave import Q, ui
 
 from helpers.card_helpers import add_card
 
-def load_data(url):
-    return 
-
-def load_model(url):
-    return h2o.import_mojo(url)
+from util.texts import model_info
+    
 
 def display_model(q: Q):
-    print("Hi")
 
-    h2o.init()
-
-    data = h2o.import_file('https://heart-failure-dataset.s3.amazonaws.com/heart_failure.csv')
+    h2o.connect(ip='localhost', port=54321)
+    
+    complete_data = h2o.import_file('https://h2o-tech-assignment.s3.amazonaws.com/data/heart_failure_complete.csv')
 
     # Define columns for the table
-    columns = [
+    total_columns = [
         ui.table_column(name=col, label=col)
-        for col in data.col_names
+        for col in complete_data.col_names
     ]
 
     # Populate rows for the table
-    rows = [
+    total_rows = [
         ui.table_row(
             name=f'row_{index}',
             cells=[str(cell) for cell in row])
-        for index, row in enumerate(data)
+        for index, row in complete_data.as_data_frame(use_pandas='True').iterrows()
     ]
 
-    # Add the table to the UI
-    q.page['example_table'] = ui.form_card(
-        box='1 1 6 4',
+    add_card(q, 'complete_data', ui.form_card(
+        title='Complete Dataset',
+        box='vertical',
         items=[
             ui.table(
-                name='example_table',
-                columns=columns,
-                rows=rows,
+                name='complete_data',
+                columns=total_columns,
+                rows=total_rows,
                 groupable=True,
+                downloadable=True,
                 height='500px',  # Set desired height
             )
         ]
-    )
+    ))
+
+    add_card(q, 'info', ui.wide_info_card(
+        box='horizontal',
+        name='info_card',
+        title='How is it done?',
+        caption=model_info,
+        label='See Results',
+        image='https://img.freepik.com/premium-photo/cartoon-character-doctor-with-stethoscope-his-hand_1057-22790.jpg'
+        ))
+    

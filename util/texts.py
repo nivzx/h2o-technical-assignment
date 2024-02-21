@@ -1,1 +1,9 @@
 hero_text = "Welcome to our user-friendly app powered by cutting-edge Neural Network technology, specifically designed to assess your risk of heart problems. Simply provide us with some basic information about yourself, such as your medical history and lifestyle habits, and our advanced system will swiftly analyze it to determine if you might be at risk of heart issues. Rest assured, your data is kept safe and secure with us. Our powerful Neural Network algorithms ensure precise and reliable predictions, empowering you with valuable insights into your cardiovascular health. Don't wait until it's too late—take control of your heart health today with our intuitive app!"
+
+model_info = '''
+Picture this AI model as a caring and astute doctor specializing in heart health. Just like a compassionate physician, it delves into heaps of data about a person's well-being, meticulously examining various aspects to foresee any potential heart-related issues down the road. It's as if it has a vast library of medical knowledge at its fingertips, continuously learning and improving to give more accurate predictions.
+
+Behind the scenes, this marvel is crafted using H2O's Deep Learning tools, known for their ability to train models effectively. Think of it as our AI doctor attending intensive training sessions, absorbing information from a diverse range of cases to refine its diagnostic skills.
+
+Once it's fully trained, we give it a cozy digital home in an AWS S3 bucket for easy access. It's like welcoming a trusted friend into your circle, always there to lend a helping hand whenever heart health concerns arise. This AI model isn't just a piece of technology; it's a companion on your journey to better health.
+'''
