@@ -10,6 +10,10 @@ from pages.model import display_model
 from pages.results import display_results
 from pages.form import display_form, handle_interaction
 
+# Initialize H2O once when the app starts
+h2o.init()
+
+
 @on('#home')
 async def home(q: Q):
     clear_cards(q)  # When routing, drop all the cards except of the main ones (header, sidebar, meta).
