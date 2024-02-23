@@ -8,6 +8,8 @@ It uses [this dataset](https://www.kaggle.com/datasets/fedesoriano/heart-failure
 
 📺 Check out a quick walkthrough of the application in [this video](https://youtu.be/JtG0GZEk6_k)!
 
+*Note: The current Dockerfile does not work. Needs to be updated*
+
 ## Running the App 🏃‍♂️
 
 Ensure you have activated a Python virtual environment with `h2o-wave` installed.
